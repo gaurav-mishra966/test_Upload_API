@@ -1,0 +1,191 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Aeries\\Aeries_Student_WebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1C147C-781E-426D-ACDC-67EACD5149D7}|Aeries_Student_WebApi\\Aeries_Student_WebApi.csproj|d:\\aeries\\aeries_student_webapi\\aeries_student_webapi\\controllers\\medicalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1C147C-781E-426D-ACDC-67EACD5149D7}|Aeries_Student_WebApi\\Aeries_Student_WebApi.csproj|solutionrelative:aeries_student_webapi\\controllers\\medicalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1C147C-781E-426D-ACDC-67EACD5149D7}|Aeries_Student_WebApi\\Aeries_Student_WebApi.csproj|d:\\aeries\\aeries_student_webapi\\aeries_student_webapi\\repositories\\implementation\\medicalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1C147C-781E-426D-ACDC-67EACD5149D7}|Aeries_Student_WebApi\\Aeries_Student_WebApi.csproj|solutionrelative:aeries_student_webapi\\repositories\\implementation\\medicalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1C147C-781E-426D-ACDC-67EACD5149D7}|Aeries_Student_WebApi\\Aeries_Student_WebApi.csproj|d:\\aeries\\aeries_student_webapi\\aeries_student_webapi\\repositories\\interface\\imedicalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1C147C-781E-426D-ACDC-67EACD5149D7}|Aeries_Student_WebApi\\Aeries_Student_WebApi.csproj|solutionrelative:aeries_student_webapi\\repositories\\interface\\imedicalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1C147C-781E-426D-ACDC-67EACD5149D7}|Aeries_Student_WebApi\\Aeries_Student_WebApi.csproj|d:\\aeries\\aeries_student_webapi\\aeries_student_webapi\\models\\dto\\medicaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1C147C-781E-426D-ACDC-67EACD5149D7}|Aeries_Student_WebApi\\Aeries_Student_WebApi.csproj|solutionrelative:aeries_student_webapi\\models\\dto\\medicaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1C147C-781E-426D-ACDC-67EACD5149D7}|Aeries_Student_WebApi\\Aeries_Student_WebApi.csproj|d:\\aeries\\aeries_student_webapi\\aeries_student_webapi\\models\\domain\\medical.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1C147C-781E-426D-ACDC-67EACD5149D7}|Aeries_Student_WebApi\\Aeries_Student_WebApi.csproj|solutionrelative:aeries_student_webapi\\models\\domain\\medical.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1C147C-781E-426D-ACDC-67EACD5149D7}|Aeries_Student_WebApi\\Aeries_Student_WebApi.csproj|d:\\aeries\\aeries_student_webapi\\aeries_student_webapi\\models\\dto\\createmedicalrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1C147C-781E-426D-ACDC-67EACD5149D7}|Aeries_Student_WebApi\\Aeries_Student_WebApi.csproj|solutionrelative:aeries_student_webapi\\models\\dto\\createmedicalrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1C147C-781E-426D-ACDC-67EACD5149D7}|Aeries_Student_WebApi\\Aeries_Student_WebApi.csproj|d:\\aeries\\aeries_student_webapi\\aeries_student_webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1C147C-781E-426D-ACDC-67EACD5149D7}|Aeries_Student_WebApi\\Aeries_Student_WebApi.csproj|solutionrelative:aeries_student_webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1C147C-781E-426D-ACDC-67EACD5149D7}|Aeries_Student_WebApi\\Aeries_Student_WebApi.csproj|d:\\aeries\\aeries_student_webapi\\aeries_student_webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1C147C-781E-426D-ACDC-67EACD5149D7}|Aeries_Student_WebApi\\Aeries_Student_WebApi.csproj|solutionrelative:aeries_student_webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1C147C-781E-426D-ACDC-67EACD5149D7}|Aeries_Student_WebApi\\Aeries_Student_WebApi.csproj|d:\\aeries\\aeries_student_webapi\\aeries_student_webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0A1C147C-781E-426D-ACDC-67EACD5149D7}|Aeries_Student_WebApi\\Aeries_Student_WebApi.csproj|solutionrelative:aeries_student_webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1C147C-781E-426D-ACDC-67EACD5149D7}|Aeries_Student_WebApi\\Aeries_Student_WebApi.csproj|d:\\aeries\\aeries_student_webapi\\aeries_student_webapi\\migrations\\20250203114032_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1C147C-781E-426D-ACDC-67EACD5149D7}|Aeries_Student_WebApi\\Aeries_Student_WebApi.csproj|solutionrelative:aeries_student_webapi\\migrations\\20250203114032_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateMedicalRequestDto.cs",
+              "DocumentMoniker": "D:\\Aeries\\Aeries_Student_WebApi\\Aeries_Student_WebApi\\Models\\DTO\\CreateMedicalRequestDto.cs",
+              "RelativeDocumentMoniker": "Aeries_Student_WebApi\\Models\\DTO\\CreateMedicalRequestDto.cs",
+              "ToolTip": "D:\\Aeries\\Aeries_Student_WebApi\\Aeries_Student_WebApi\\Models\\DTO\\CreateMedicalRequestDto.cs",
+              "RelativeToolTip": "Aeries_Student_WebApi\\Models\\DTO\\CreateMedicalRequestDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwA0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T06:10:50.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MedicalDto.cs",
+              "DocumentMoniker": "D:\\Aeries\\Aeries_Student_WebApi\\Aeries_Student_WebApi\\Models\\DTO\\MedicalDto.cs",
+              "RelativeDocumentMoniker": "Aeries_Student_WebApi\\Models\\DTO\\MedicalDto.cs",
+              "ToolTip": "D:\\Aeries\\Aeries_Student_WebApi\\Aeries_Student_WebApi\\Models\\DTO\\MedicalDto.cs",
+              "RelativeToolTip": "Aeries_Student_WebApi\\Models\\DTO\\MedicalDto.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAADwvw4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T13:10:55.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IMedicalRepository.cs",
+              "DocumentMoniker": "D:\\Aeries\\Aeries_Student_WebApi\\Aeries_Student_WebApi\\Repositories\\Interface\\IMedicalRepository.cs",
+              "RelativeDocumentMoniker": "Aeries_Student_WebApi\\Repositories\\Interface\\IMedicalRepository.cs",
+              "ToolTip": "D:\\Aeries\\Aeries_Student_WebApi\\Aeries_Student_WebApi\\Repositories\\Interface\\IMedicalRepository.cs",
+              "RelativeToolTip": "Aeries_Student_WebApi\\Repositories\\Interface\\IMedicalRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T06:14:21.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MedicalController.cs",
+              "DocumentMoniker": "D:\\Aeries\\Aeries_Student_WebApi\\Aeries_Student_WebApi\\Controllers\\MedicalController.cs",
+              "RelativeDocumentMoniker": "Aeries_Student_WebApi\\Controllers\\MedicalController.cs",
+              "ToolTip": "D:\\Aeries\\Aeries_Student_WebApi\\Aeries_Student_WebApi\\Controllers\\MedicalController.cs",
+              "RelativeToolTip": "Aeries_Student_WebApi\\Controllers\\MedicalController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwBsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T12:27:50.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MedicalRepository.cs",
+              "DocumentMoniker": "D:\\Aeries\\Aeries_Student_WebApi\\Aeries_Student_WebApi\\Repositories\\Implementation\\MedicalRepository.cs",
+              "RelativeDocumentMoniker": "Aeries_Student_WebApi\\Repositories\\Implementation\\MedicalRepository.cs",
+              "ToolTip": "D:\\Aeries\\Aeries_Student_WebApi\\Aeries_Student_WebApi\\Repositories\\Implementation\\MedicalRepository.cs",
+              "RelativeToolTip": "Aeries_Student_WebApi\\Repositories\\Implementation\\MedicalRepository.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAUwDYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T12:30:46.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Medical.cs",
+              "DocumentMoniker": "D:\\Aeries\\Aeries_Student_WebApi\\Aeries_Student_WebApi\\Models\\Domain\\Medical.cs",
+              "RelativeDocumentMoniker": "Aeries_Student_WebApi\\Models\\Domain\\Medical.cs",
+              "ToolTip": "D:\\Aeries\\Aeries_Student_WebApi\\Aeries_Student_WebApi\\Models\\Domain\\Medical.cs",
+              "RelativeToolTip": "Aeries_Student_WebApi\\Models\\Domain\\Medical.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAADwvyIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T13:20:39.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250203114032_InitialMigration.cs",
+              "DocumentMoniker": "D:\\Aeries\\Aeries_Student_WebApi\\Aeries_Student_WebApi\\Migrations\\20250203114032_InitialMigration.cs",
+              "RelativeDocumentMoniker": "Aeries_Student_WebApi\\Migrations\\20250203114032_InitialMigration.cs",
+              "ToolTip": "D:\\Aeries\\Aeries_Student_WebApi\\Aeries_Student_WebApi\\Migrations\\20250203114032_InitialMigration.cs",
+              "RelativeToolTip": "Aeries_Student_WebApi\\Migrations\\20250203114032_InitialMigration.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T11:40:32.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Aeries\\Aeries_Student_WebApi\\Aeries_Student_WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "Aeries_Student_WebApi\\Program.cs",
+              "ToolTip": "D:\\Aeries\\Aeries_Student_WebApi\\Aeries_Student_WebApi\\Program.cs",
+              "RelativeToolTip": "Aeries_Student_WebApi\\Program.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAACsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T12:50:36.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Aeries\\Aeries_Student_WebApi\\Aeries_Student_WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "Aeries_Student_WebApi\\appsettings.json",
+              "ToolTip": "D:\\Aeries\\Aeries_Student_WebApi\\Aeries_Student_WebApi\\appsettings.json",
+              "RelativeToolTip": "Aeries_Student_WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-29T12:53:23.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\Aeries\\Aeries_Student_WebApi\\Aeries_Student_WebApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Aeries_Student_WebApi\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\Aeries\\Aeries_Student_WebApi\\Aeries_Student_WebApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Aeries_Student_WebApi\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T12:53:15.121Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

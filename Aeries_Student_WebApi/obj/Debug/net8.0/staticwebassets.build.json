@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "j3WsTFoDmPRgJ3XSmgq86/XztTlCFvKDrueUbRnch2U=",
+  "Source": "Aeries_Student_WebApi",
+  "BasePath": "_content/Aeries_Student_WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

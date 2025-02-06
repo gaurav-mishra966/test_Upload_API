@@ -1,0 +1,6 @@
+@Aeries_Student_WebApi_HostAddress = http://localhost:5118
+
+GET {{Aeries_Student_WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

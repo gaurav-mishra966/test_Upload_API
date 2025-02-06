@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Aeries_Student_WebApi.props" />
+</Project>
