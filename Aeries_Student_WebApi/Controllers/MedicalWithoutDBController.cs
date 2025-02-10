@@ -1,18 +1,20 @@
 using Aeries_Student_WebApi.Models.DTO;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Aeries_Student_WebApi.Controllers
 {
-    
     [ApiController]
     [Route("MedicalWithoutDB")]
     public class MedicalWithoutDBController : ControllerBase
     {
-        //Static Data Implementation Method
+        // Static Data Implementation Method
         [HttpGet]
-        [Route("getMedicalRecord")]
-        public IEnumerable<MedicalDto> GetMedicalRecord()
+        [Route("getMedicalRecord/{id:int}")]
+        public ActionResult<MedicalDto> GetMedicalRecord([FromRoute] int id)
         {
             try
             {
@@ -31,9 +33,7 @@ namespace Aeries_Student_WebApi.Controllers
                         EndDate = "2025-02-01",
                         Result = "Positive",
                         Tag = "Routine Check",
-                        Remarks = "No further issues",
-                        BillingCode = "SomeString"
-                        //new BillingCode { Code = "B123", Description = "General Consultation" }
+                        Remarks = "No further issues"
                     },
                     new MedicalDto
                     {
@@ -47,9 +47,7 @@ namespace Aeries_Student_WebApi.Controllers
                         EndDate = "2025-02-02",
                         Result = "Negative",
                         Tag = "Emergency Visit",
-                        Remarks = "Minor injury, advised rest",
-                        BillingCode = "SomeString"
-                        //BillingCode = new BillingCode { Code = "B456", Description = "Emergency Visit" }
+                        Remarks = "Minor injury, advised rest"
                     },
                     new MedicalDto
                     {
@@ -63,18 +61,26 @@ namespace Aeries_Student_WebApi.Controllers
                         EndDate = "2025-02-03",
                         Result = "Pending",
                         Tag = "Follow-up",
-                        Remarks = "Awaiting lab results",
-                        BillingCode = "SomeString"
-                        //BillingCode = new BillingCode { Code = "C789", Description = "Follow-up Consultation" }
+                        Remarks = "Awaiting lab results"
                     }
                 };
 
-                return medicalRecords;
+                // Find the medical record based on the passed id (StudentId or MedicalRecordId)
+                var medicalRecord = medicalRecords.FirstOrDefault(m => m.StudentId == id); // You can change this to match `MedicalRecordId` if needed
+
+                // Check if the medical record was found
+                if (medicalRecord == null)
+                {
+                    return NotFound($"Medical record for Student ID {id} not found.");
+                }
+
+                // Return the found medical record
+                return Ok(medicalRecord);
             }
             catch (Exception ex)
             {
-                // Assuming BadRequest is a method that returns an error response
-                return (IEnumerable<MedicalDto>)BadRequest(ex.Message);
+                // Return a BadRequest if an error occurs
+                return BadRequest(ex.Message);
             }
         }
     }
