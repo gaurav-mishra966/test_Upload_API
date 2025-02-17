@@ -50,11 +50,12 @@ var app = builder.Build();
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+app.UseCors("AllowReactOrigin");
 
 app.UseRouting();
 
 app.MapControllers();
 
-app.UseCors("AllowReactOrigin");
+
 
 app.Run();
