@@ -1,27 +1,28 @@
 using Aeries_Student_WebApi.Models.DTO;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Aeries_Student_WebApi.Controllers
 {
-    
     [ApiController]
     [Route("MedicalWithoutDB")]
     public class MedicalWithoutDBController : ControllerBase
     {
-        //Static Data Implementation Method
+        // Static Data Implementation Method
         [HttpGet]
-        [Route("getMedicalRecord")]
-        public IEnumerable<MedicalDto> GetMedicalRecord()
+        [Route("getMedicalRecord/{id:int}")]
+        public ActionResult<WithoutDB_MedicalRecord> GetMedicalRecord([FromRoute] int id)
         {
             try
             {
-                // Static data for medical records based on the DB-model
-                var medicalRecords = new List<MedicalDto>
+                // Static data for medical records based on the updated DB-model
+                var medicalRecords_DBLess = new List<WithoutDB_MedicalRecord>
                 {
-                    new MedicalDto
+                    new WithoutDB_MedicalRecord
                     {
-                        StudentId = 1,
                         MedicalRecordId = "MR12345",
                         Date = "2025-02-01",
                         Code = "A123",
@@ -32,12 +33,13 @@ namespace Aeries_Student_WebApi.Controllers
                         Result = "Positive",
                         Tag = "Routine Check",
                         Remarks = "No further issues",
-                        BillingCode = "SomeString"
-                        //new BillingCode { Code = "B123", Description = "General Consultation" }
+                        BillingCode = "BC001",
+                        Units = "1",
+                        Initials = "AB",
+                        Comments = "Follow-up required"
                     },
-                    new MedicalDto
+                    new WithoutDB_MedicalRecord
                     {
-                        StudentId = 2,
                         MedicalRecordId = "MR12346",
                         Date = "2025-02-02",
                         Code = "B456",
@@ -48,12 +50,13 @@ namespace Aeries_Student_WebApi.Controllers
                         Result = "Negative",
                         Tag = "Emergency Visit",
                         Remarks = "Minor injury, advised rest",
-                        BillingCode = "SomeString"
-                        //BillingCode = new BillingCode { Code = "B456", Description = "Emergency Visit" }
+                        BillingCode = "BC002",
+                        Units = "1",
+                        Initials = "CD",
+                        Comments = "Rest for 3 days"
                     },
-                    new MedicalDto
+                    new WithoutDB_MedicalRecord
                     {
-                        StudentId = 3,
                         MedicalRecordId = "MR12347",
                         Date = "2025-02-03",
                         Code = "C789",
@@ -64,17 +67,35 @@ namespace Aeries_Student_WebApi.Controllers
                         Result = "Pending",
                         Tag = "Follow-up",
                         Remarks = "Awaiting lab results",
-                        BillingCode = "SomeString"
-                        //BillingCode = new BillingCode { Code = "C789", Description = "Follow-up Consultation" }
+                        BillingCode = "BC003",
+                        Units = "2",
+                        Initials = "EF",
+                        Comments = "Lab results pending"
                     }
                 };
 
-                return medicalRecords;
+                // Find the medical record(s) based on the passed id (using MedicalRecordId in this case)
+                var studentMedicalRecords = medicalRecords_DBLess.Where(m => m.MedicalRecordId.Contains(id.ToString())).ToList();
+
+                // Check if the medical record(s) were found
+                if (studentMedicalRecords.Count == 0)
+                {
+                    return NotFound($"Medical record for ID {id} not found.");
+                }
+
+                // Construct MedicalWithoutDBDto and return
+                var result = new MedicalWithoutDBDto
+                {
+                    StudentId = id,
+                    WithoutDB_MedicalRecords = studentMedicalRecords
+                };
+
+                return Ok(result);
             }
             catch (Exception ex)
             {
-                // Assuming BadRequest is a method that returns an error response
-                return (IEnumerable<MedicalDto>)BadRequest(ex.Message);
+                // Return a BadRequest if an error occurs
+                return BadRequest(ex.Message);
             }
         }
     }
