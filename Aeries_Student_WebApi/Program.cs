@@ -23,7 +23,8 @@ builder.Services.AddCors(options =>
     {
         policy.WithOrigins("http://localhost:3000") // React app origin
               .AllowAnyHeader()  // Allow any headers
-              .AllowAnyMethod(); // Allow any HTTP method (GET, POST, etc.)
+              .AllowAnyMethod() // Allow any HTTP method (GET, POST, etc.)
+            .AllowAnyOrigin();
     });
 });
 
