@@ -7,13 +7,24 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 //Adding CROS services to the application to communicate with UI components
+//builder.Services.AddCors(options =>
+//{
+//    options.AddPolicy("AllowAngularOrigin", policy =>
+//    {
+//        policy.WithOrigins("https://localhost:7272","*") // Allow requests from other application that needs to use this api
+//              .AllowAnyHeader()
+//              .AllowAnyMethod();
+//    });
+//});
+
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAngularOrigin", policy =>
+    options.AddPolicy("AllowReactOrigin", policy =>
     {
-        policy.WithOrigins("https://localhost:7272") // Allow requests from other application that needs to use this api
-              .AllowAnyHeader()
-              .AllowAnyMethod();
+        policy.WithOrigins("http://localhost:3000") // React app origin
+              .AllowAnyHeader()  // Allow any headers
+              .AllowAnyMethod() //; Allow any HTTP method (GET, POST, etc.)
+              .AllowAnyOrigin();
     });
 });
 
@@ -40,9 +51,12 @@ var app = builder.Build();
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+app.UseCors("AllowReactOrigin");
 
 app.UseRouting();
 
 app.MapControllers();
+
+
 
 app.Run();
