@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\Projects\\AeriesPOC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\AeriesPOC\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1C147C-781E-426D-ACDC-67EACD5149D7}|Aeries_Student_WebApi\\Aeries_Student_WebApi.csproj|d:\\projects\\aeriespoc\\aeries_student_webapi\\aeries_student_webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0A1C147C-781E-426D-ACDC-67EACD5149D7}|Aeries_Student_WebApi\\Aeries_Student_WebApi.csproj|solutionrelative:aeries_student_webapi\\aeries_student_webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0A1C147C-781E-426D-ACDC-67EACD5149D7}|Aeries_Student_WebApi\\Aeries_Student_WebApi.csproj|d:\\projects\\aeriespoc\\aeries_student_webapi\\controllers\\medicalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A1C147C-781E-426D-ACDC-67EACD5149D7}|Aeries_Student_WebApi\\Aeries_Student_WebApi.csproj|solutionrelative:aeries_student_webapi\\controllers\\medicalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -50,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,7 +70,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "D:\\Projects\\AeriesPOC\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "D:\\Projects\\AeriesPOC\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-04-03T12:33:50.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Aeries_Student_WebApi",
+              "DocumentMoniker": "D:\\Projects\\AeriesPOC\\Aeries_Student_WebApi\\Aeries_Student_WebApi.csproj",
+              "RelativeDocumentMoniker": "Aeries_Student_WebApi\\Aeries_Student_WebApi.csproj",
+              "ToolTip": "D:\\Projects\\AeriesPOC\\Aeries_Student_WebApi\\Aeries_Student_WebApi.csproj",
+              "RelativeToolTip": "Aeries_Student_WebApi\\Aeries_Student_WebApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-03T12:29:46.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "MedicaWithoutDBDto.cs",
               "DocumentMoniker": "D:\\Projects\\AeriesPOC\\Aeries_Student_WebApi\\Models\\DTO\\MedicaWithoutDBDto.cs",
               "RelativeDocumentMoniker": "Aeries_Student_WebApi\\Models\\DTO\\MedicaWithoutDBDto.cs",
@@ -75,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "MedicalDatasetHelper.cs",
               "DocumentMoniker": "D:\\Projects\\AeriesPOC\\Aeries_Student_WebApi\\Data\\MedicalDatasetHelper.cs",
               "RelativeDocumentMoniker": "Aeries_Student_WebApi\\Data\\MedicalDatasetHelper.cs",
@@ -88,20 +122,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MedicalController.cs",
               "DocumentMoniker": "D:\\Projects\\AeriesPOC\\Aeries_Student_WebApi\\Controllers\\MedicalController.cs",
               "RelativeDocumentMoniker": "Aeries_Student_WebApi\\Controllers\\MedicalController.cs",
               "ToolTip": "D:\\Projects\\AeriesPOC\\Aeries_Student_WebApi\\Controllers\\MedicalController.cs",
               "RelativeToolTip": "Aeries_Student_WebApi\\Controllers\\MedicalController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwGQAAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T12:04:00.095Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projects\\AeriesPOC\\Aeries_Student_WebApi\\Program.cs",
               "RelativeDocumentMoniker": "Aeries_Student_WebApi\\Program.cs",
@@ -114,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "IMedicalService.cs",
               "DocumentMoniker": "D:\\Projects\\AeriesPOC\\Aeries_Student_WebApi\\Services\\Interfaces\\IMedicalService.cs",
               "RelativeDocumentMoniker": "Aeries_Student_WebApi\\Services\\Interfaces\\IMedicalService.cs",
@@ -127,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MedicalService.cs",
               "DocumentMoniker": "D:\\Projects\\AeriesPOC\\Aeries_Student_WebApi\\Services\\Implementations\\MedicalService.cs",
               "RelativeDocumentMoniker": "Aeries_Student_WebApi\\Services\\Implementations\\MedicalService.cs",
@@ -140,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MedicalWithoutDBController.cs",
               "DocumentMoniker": "D:\\Projects\\AeriesPOC\\Aeries_Student_WebApi\\Controllers\\MedicalWithoutDBController.cs",
               "RelativeDocumentMoniker": "Aeries_Student_WebApi\\Controllers\\MedicalWithoutDBController.cs",
@@ -153,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "NoDBMedicalRepository.cs",
               "DocumentMoniker": "D:\\Projects\\AeriesPOC\\Aeries_Student_WebApi\\Repositories\\Implementation\\NoDBMedicalRepository.cs",
               "RelativeDocumentMoniker": "Aeries_Student_WebApi\\Repositories\\Implementation\\NoDBMedicalRepository.cs",
@@ -166,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "MedicalRepository.cs",
               "DocumentMoniker": "D:\\Projects\\AeriesPOC\\Aeries_Student_WebApi\\Repositories\\Implementation\\MedicalRepository.cs",
               "RelativeDocumentMoniker": "Aeries_Student_WebApi\\Repositories\\Implementation\\MedicalRepository.cs",
@@ -179,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "INoDBMedicalRepository.cs",
               "DocumentMoniker": "D:\\Projects\\AeriesPOC\\Aeries_Student_WebApi\\Repositories\\Interface\\INoDBMedicalRepository.cs",
               "RelativeDocumentMoniker": "Aeries_Student_WebApi\\Repositories\\Interface\\INoDBMedicalRepository.cs",
