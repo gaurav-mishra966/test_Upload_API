@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Aeries_Student_WebApi_Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6f8fd14f10ddf4a8adc76e84bf19cf19780beff")]
 [assembly: System.Reflection.AssemblyProductAttribute("Aeries_Student_WebApi_Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Aeries_Student_WebApi_Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

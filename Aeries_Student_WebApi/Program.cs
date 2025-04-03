@@ -2,6 +2,8 @@
 using Aeries_Student_WebApi.Data;
 using Aeries_Student_WebApi.Repositories.Implementation;
 using Aeries_Student_WebApi.Repositories.Interface;
+using Aeries_Student_WebApi.Services.Implementations;
+using Aeries_Student_WebApi.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -43,6 +45,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 //injecting repo and associated components
 builder.Services.AddScoped<IMedicalRepository, MedicalRepository>();
+builder.Services.AddScoped<INoDBMedicalRepository, NoDBMedicalRepository>();
+builder.Services.AddScoped<IMedicalService, MedicalService>();
 
 var app = builder.Build();
 

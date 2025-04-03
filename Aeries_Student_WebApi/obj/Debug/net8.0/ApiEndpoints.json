@@ -37,6 +37,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Aeries_Student_WebApi.Controllers.MedicalWithoutDBController",
+    "Method": "GetMedicalRecord",
+    "RelativePath": "MedicalWithoutDB/getMedicalRecord/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Aeries_Student_WebApi.Models.DTO.WithoutDB_MedicalRecord",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Aeries_Student_WebApi.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

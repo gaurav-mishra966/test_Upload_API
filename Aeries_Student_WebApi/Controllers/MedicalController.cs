@@ -2,6 +2,8 @@
 using Aeries_Student_WebApi.Models.DTO;
 using Aeries_Student_WebApi.Repositories.Implementation;
 using Aeries_Student_WebApi.Repositories.Interface;
+using Aeries_Student_WebApi.Services.Implementations;
+using Aeries_Student_WebApi.Services.Interfaces;
 using Azure.Core;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -14,11 +16,11 @@ namespace Aeries_Student_WebApi.Controllers
     [Route("Medical")]  // Remove [controller] here, route should just be Medical
     public class MedicalController : ControllerBase
     {
-        private readonly IMedicalRepository medicalRepository;
+        private readonly IMedicalService medicalService;
 
-        public MedicalController(IMedicalRepository medicalRepository)
+        public MedicalController(IMedicalService medicalService)
         {
-            this.medicalRepository = medicalRepository;
+            this.medicalService = medicalService;
         }
 
 
@@ -30,7 +32,7 @@ namespace Aeries_Student_WebApi.Controllers
             try
             {
                 // Fetch the medical record by student ID
-                var medicalData = await medicalRepository.GetMedicalRecordByStudentIdAsync(id);
+                var medicalData = await medicalService.GetMedicalRecordByStudentIdAsync(id);
 
                 // If no medical data is found, return a NotFound response
                 if (medicalData == null)
@@ -96,7 +98,7 @@ namespace Aeries_Student_WebApi.Controllers
                     Tag = request.Tag,
                 };
 
-                await medicalRepository.CreateMedicalRecordByStudentId(medical, id);
+                await medicalService.CreateMedicalRecordByStudentIdAsync(medical, id);
 
                 //map this to domain model to dto
                 var response = new MedicalDto

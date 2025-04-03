@@ -1,0 +1,17 @@
+﻿# Ignore Visual Studio-specific files
+.vs/
+
+# Ignore build outputs from all projects in the solution
+**/bin/
+**/obj/
+**/Debug*/
+**/Release*/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore package-related files
+packages/

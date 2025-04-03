@@ -8,6 +8,7 @@ namespace Aeries_Student_WebApi.Models.DTO
     }
     public class WithoutDB_MedicalRecord
     {
+        public int StudentId { get; set; }
         public string? MedicalRecordId { get; set; }
         public string? Date { get; set; }
         public string? Code { get; set; }
